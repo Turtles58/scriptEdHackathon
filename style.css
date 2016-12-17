@@ -1,0 +1,43 @@
+#game
+{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width:50%;
+    margin: 0 auto;
+    
+}
+
+.response{
+    display: block;
+    color: #545454;
+}
+.player{
+    display: block;
+    color: #1ab2d8;
+}
+.choice
+{
+    display: inline-block;
+    float: left;
+    margin: 10px;
+
+}
+#window
+{
+    height: 500px;
+    border: solid 1px black;
+    overflow-y: scroll;
+    background-color:#ccffff;
+}
+#exit
+{
+    display:block;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+#wrap {
+    margin: 0 auto;
+ 
+}
